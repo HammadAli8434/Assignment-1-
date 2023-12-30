@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1 website</title>
+  </head>
+
+  <body>
+    <header>
+      this is header
+      <nav>this is nav tag</nav>
+    </header>
+    <hr />
+    <br />
+
+    <div>this is div tag</div>
+    <hr />
+    <aside>this is aside bar</aside>
+    <hr />
+    <br />
+    <main>
+      <article>
+        <fieldset>
+          <b>Headings</b>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+        </fieldset>
+        <hr />
+        <br />
+        <fieldset>
+          <b>Paragragh and text tags</b>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea,
+            aliquid.
+          </p>
+          <b>bold tag</b><br />
+          <i>italian tag</i><br />
+          <strong>strong tag</strong><br />
+          <em>emphasize tag</em><br />
+        </fieldset>
+        <hr />
+        <br />
+
+        <fieldset>
+          <b>anchor tag</b>
+          <br />
+          <br />
+          <hr />
+          <a href="https://www.google.com/" target="_blank"
+            >click here to open google</a
+          >
+        </fieldset>
+        <hr />
+        <br />
+        <fieldset>
+          <em>listing tags</em>
+
+          <ul type="circle">
+            <li>peanuts</li>
+            <li>cashew</li>
+            <li>currants</li>
+            <li>figs</li>
+          </ul>
+
+          <ol type="I">
+            <li>peanuts</li>
+            <li>cashew</li>
+            <li>currants</li>
+            <li>figs</li>
+          </ol>
+        </fieldset>
+      </article>
+      <hr />
+      <fieldset>
+        <b>Table tag</b>
+        <table border="1">
+          <caption>
+            <b>All results</b>
+          </caption>
+          <thead>
+            <tr>
+              <th colspan="7">Students marksheet</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>pst</th>
+              <th>english</th>
+              <th>chemistry</th>
+              <th>physics</th>
+              <th>maths</th>
+              <th>Urdu</th>
+            </tr>
+            <tr>
+              <th>Hammad</th>
+              <td>45</td>
+              <td>75</td>
+              <td>60</td>
+              <td>23</td>
+              <td>50</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <th>Daniyal</th>
+              <td>75</td>
+              <td>67</td>
+              <td>80</td>
+              <td>55</td>
+              <td>65</td>
+              <td>86</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="7">All results</td>
+            </tr>
+          </tfoot>
+        </table>
+      </fieldset>
+      <hr />
+      <br />
+
+      <form onsubmit="">
+        <fieldset>
+          <label for="">Name :</label>
+          <input type="text" placeholder="Enter your Name" />
+
+          <div>
+            <label for=""> Email: </label>
+            <input type="text" placeholder="Enter your mail" />
+          </div>
+          <div>
+            <label for="password"> Password: <input type="password" /></label>
+          </div>
+
+          <div>
+            <label for=""> Picture </label> <input type="file" accept="i" />
+            <br />
+          </div>
+        </fieldset>
+        <hr />
+
+        <fieldset>
+          <label for=""> Time :</label><input type="time" />
+          <label for=""> Date :</label><input type="date" /><br />
+          <label for=""> Month :</label><input type="month" />
+          <label for=""> Week :</label><input type="week" /><br />
+        </fieldset>
+        <hr />
+        <fieldset>
+          <label for=""> Age</label> <input type="range" />
+          <label for=""> Color :</label><input type="color" /><br />
+          <label for=""> Search :</label><input type="search" />
+          <label for=""> Number :</label><input type="number" /><br />
+        </fieldset>
+        <hr />
+
+        <fieldset>
+          <h2>Select gender</h2>
+          <div>
+            <input type="radio" id="male" value="male" name="gender" /><label
+              for="male"
+            >
+              Male :</label
+            >
+          </div>
+          <div>
+            <input type="radio" id="female" value="female" name="gender" />
+            <label for="female"> Female :</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              required
+              id="male"
+              value="male"
+              name="gender"
+            />
+            <label for="male"> Male :</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              required
+              id="female"
+              value="female"
+              name="gender"
+            />
+            <label for="female"> Female :</label>
+          </div>
+        </fieldset>
+        <hr />
+        <fieldset>
+          <select name="Select your country" id="country">
+            <option value="" id="country">Select your country</option>
+            <option value="Pakistan" id="country">Pakistan</option>
+            <option value="India" id="country">India</option>
+            <option value="China" id="country">China</option>
+            <option value="USA" id="country">USA</option>
+            <option value="Iran" id="country">Iran</option>
+          </select>
+        </fieldset>
+        <br />
+
+        <button type="reset">Submit</button>
+      </form>
+      <hr />
+    </main>
+    <iframe
+      src="https://www.wikipedia.org/"
+      frameborder="1"
+      width="1200"
+      height="800"
+    ></iframe>
+    <br />
+    <hr />
+    <fieldset>
+      <h3>Image tag</h3>
+      <img
+        src="
+        https://images.pexels.com/photos/6682642/pexels-photo-6682642.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+        alt="picture not load"
+        width="160px"
+        height="160px"
+      />
+    </fieldset>
+    <br />
+    <fieldset>
+      <h4>Pre tag</h4>
+      <pre>
+        num1 = 1.5
+
+        num2 = 6.3
+
+
+   # Add two numbers
+   sum = num1 + num2
+    </pre
+      >
+    </fieldset>
+    <br />
+    <fieldset>
+      <h3>Sub and Sup tag</h3>
+
+      <p>CO<sub>2</sub></p>
+      <p>ax<sup>2</sup>+bx+c</p>
+    </fieldset>
+    <br />
+
+    <fieldset>
+      <h3>Footer</h3>
+      <footer>this is my footer</footer>
+    </fieldset>
+  </body>
+</html>
